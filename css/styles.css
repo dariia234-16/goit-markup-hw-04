@@ -8,11 +8,6 @@
   --CORNFLOWER: #e7e9fc;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 /* globaL style rules */
 body {
   background-color: var(--WHITE);
@@ -345,11 +340,19 @@ img {
   justify-content: center;
   align-items: center;
   border-radius: 0px 0px 4px 4px;
-  width: calc(100% - 72px) / 4;
+  width: 264px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-member-text-container {
   padding: 32px 0;
+}
+
+.social-media-list-our-team {
+  display: flex;
+  gap: 24px;
 }
 
 /* customers section */
@@ -375,9 +378,13 @@ img {
 
 .customers-list {
   display: flex;
+  gap: 24px;
 }
 
 .customer-container {
+  border: 1px solid var(--SLATE);
+  border-radius: 4px;
+  padding: 16px 32px;
 }
 
 /* footer section */
@@ -394,6 +401,24 @@ img {
   max-width: 264px;
 }
 
+.footer-social-media-header {
+  color: var(--WHITE, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+  margin-bottom: 16px;
+}
+
+.social-media-item {
+  background-color: var(--IRIS);
+  color: var(--CLOUD);
+  padding: 8px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
 /* footer positioning */
 
 .footer {
@@ -403,10 +428,27 @@ img {
 
 .footer-container {
   display: flex;
+  justify-content: flex-start;
+  gap: 120px;
+}
+
+.logo-and-description {
+  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-content: flex-start;
   justify-content: center;
+  width: 264px;
+}
+
+.social-media-part-of-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-social-media-list {
+  display: flex;
+  gap: 16px;
 }
 
 .logo-footer {
@@ -414,6 +456,10 @@ img {
   display: inline-block;
 }
 
+.footer-social-media-list {
+  display: flex;
+  gap: 16px;
+}
 /* ./PORTOFOLIO.HTML */
 
 /* the list of buttons */
