@@ -450,7 +450,6 @@ img {
 
 .social-media-link {
   background-color: var(--IRIS);
-  color: var(--CLOUD);
   padding: 8px;
   border-radius: 50%;
   width: 40px;
@@ -463,6 +462,10 @@ img {
 .social-media-link:hover,
 .social-media-link:focus {
   background-color: var(--GREEN);
+}
+
+.social-media-icon {
+  fill: var(--CLOUD);
 }
 /* footer positioning */
 
