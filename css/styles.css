@@ -400,8 +400,10 @@ img {
   margin-bottom: 72px;
 }
 
-.customers-container {
+.customers {
   padding: 120px 0;
+}
+.customers-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
