@@ -266,6 +266,10 @@ img {
   width: 264px;
   height: 112px;
   padding: 24px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
 }
 /* section two : What are we doing */
 
