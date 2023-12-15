@@ -407,6 +407,7 @@ img {
 .customer-container:hover,
 .customer-container:focus {
   border: 1px solid var(--OCEAN);
+  color: var(--OCEAN);
 }
 
 /* footer section */
