@@ -152,6 +152,7 @@ img {
   line-height: 107.143%; /* 107.143% */
   letter-spacing: 1.12px;
   max-width: 496px;
+  background-image: ;
 }
 
 .hero-image-button {
@@ -335,7 +336,7 @@ img {
 
 .team-member-container {
   background-color: var(--WHITE, #fff);
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
