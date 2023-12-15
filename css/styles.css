@@ -30,6 +30,11 @@ img {
   padding: 0 15px;
 }
 
+.header {
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
 .header-container {
   height: 72px;
   display: flex;
@@ -142,6 +147,7 @@ img {
 /* hero content section */
 
 .hero-image-section {
+  max-width: 1440px;
   background-color: var(--NAVY-BLUE);
   padding: 188px 0;
   background-image: linear-gradient(
@@ -151,6 +157,7 @@ img {
     url("../images/background-image-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .hero-image-header {
@@ -245,18 +252,20 @@ img {
   justify-content: center;
   gap: 24px;
 }
-.quality-icon {
-  border-radius: 4px;
-  background-color: var(--CLOUD, #f4f4fd);
-  width: 264px;
-  height: 112px;
-  padding: 24px 100px;
-}
+
 .quality-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   width: 264px;
+}
+
+.icon-container {
+  border-radius: 4px;
+  background-color: var(--CLOUD, #f4f4fd);
+  width: 264px;
+  height: 112px;
+  padding: 24px 100px;
 }
 /* section two : What are we doing */
 
