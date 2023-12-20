@@ -433,7 +433,11 @@ img {
   color: var(--LIGHT-SLATE);
 }
 
-.customer-list-link:hover,
+.customer-list-link:hover {
+  color: var(--OCEAN);
+  border-color: var(--OCEAN);
+}
+
 .customer-list-link:focus {
   color: var(--OCEAN);
   border-color: var(--OCEAN);
@@ -481,6 +485,7 @@ img {
 .social-media-link:focus {
   background-color: var(--OCEAN);
 }
+
 .footer-social-media-link:hover,
 .footer-social-media-link:focus {
   background-color: var(--GREEN);
