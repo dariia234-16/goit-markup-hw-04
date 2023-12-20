@@ -444,6 +444,11 @@ img {
   color: var(--OCEAN);
   border-color: var(--OCEAN);
 }
+
+.customer-icon {
+  fill: currentColor;
+}
+
 /* footer section */
 
 .part-of-logo-footer {
