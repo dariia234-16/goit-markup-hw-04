@@ -447,6 +447,10 @@ img {
   fill: currentColor;
 }
 
+.customer-icon-footer {
+  fill: var(--CLOUD);
+}
+
 /* footer section */
 
 .part-of-logo-footer {
