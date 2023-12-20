@@ -498,6 +498,7 @@ img {
 .social-media-icon {
   fill: var(--CLOUD);
 }
+
 /* footer positioning */
 
 .footer {
@@ -529,6 +530,7 @@ img {
 .footer-social-media-list {
   display: flex;
   gap: 16px;
+  padding: 0;
 }
 
 .logo-footer {
@@ -550,7 +552,7 @@ img {
   font-size: 16px;
   font-weight: 500;
   line-height: 150%; /* 150% */
-  letter-spacing: 0.64px;
+  letter-spacing: 0.64px;=hkjbc 
   text-align: center;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
