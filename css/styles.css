@@ -418,21 +418,15 @@ img {
 }
 
 .customer-container {
-  border-radius: 4px;
   height: 88px;
   width: 168px;
-}
-
-.customer-container:hover,
-.customer-container:focus {
-  border: 1px solid var(--OCEAN);
-  color: var(--OCEAN);
 }
 
 .customer-list-link {
   width: 100%;
   height: 100%;
   border: 1px solid var(--SLATE);
+  border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
