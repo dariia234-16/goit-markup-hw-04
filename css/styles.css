@@ -310,8 +310,7 @@ img {
   width: calc(100%-48px) / 3;
 }
 /* section three: Our team */
-
-.section-three-header {
+kk .section-three-header {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
   font-size: 36px;
@@ -444,7 +443,13 @@ img {
 }
 
 .customer-icon {
-  fill: currentColor;
+  fill: var(--LIGHT-SLATE);
+}
+
+.customer-list-link:hover .customer-icon,
+.customer-list-link:focus .customer-icon,
+.customer-list-link:active .customer-icon {
+  fill: var(--OCEAN);
 }
 
 /* footer section */
@@ -459,9 +464,10 @@ img {
   line-height: 150%; /* 150% */
   letter-spacing: 0.32px;
   max-width: 264px;
+  margin: 0;
 }
 
-.footer-social-media-header {
+.footer-social-media-paragraph {
   color: var(--WHITE, #fff);
   font-size: 16px;
   font-weight: 500;
@@ -509,18 +515,8 @@ img {
 }
 
 .logo-and-description {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  justify-content: center;
   width: 264px;
   margin-right: 120px;
-}
-
-.social-media-part-of-footer {
-  display: flex;
-  flex-direction: column;
 }
 
 .footer-social-media-list {
@@ -534,10 +530,6 @@ img {
   display: inline-block;
 }
 
-.footer-social-media-list {
-  display: flex;
-  gap: 16px;
-}
 /* ./PORTOFOLIO.HTML */
 
 /* the list of buttons */
