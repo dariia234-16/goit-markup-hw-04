@@ -414,6 +414,7 @@ kk .section-three-header {
 .customers-list {
   display: flex;
   gap: 24px;
+  margin: 0;
 }
 
 .customer-container {
